@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/31/user/1478667).
-* Наставник: `Неизвестно`.
+* Наставник: `Виктор Гирда`.(https://htmlacademy.ru/profile/viktorgirda)
 
 ---
 
