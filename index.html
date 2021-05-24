@@ -11,7 +11,9 @@
     	ТЕХНОМАРТ
     	</a>
     	<div class="header__top">
-    		<div class="search">Поиск: </div>
+    		<form>
+    			<input type="search" name="search" id="search">
+    		</form>
     		<ul>
     			<li>Закладки:</li>
     			<li>Корзина:</li>
@@ -32,7 +34,7 @@
     		<a href="#">Войти</a>
     		<a href="#">Регистрация</a>
     	</div>
-    	<nav>
+    	<nav class="nav">
     		<ul>
     			<li><a href="">Глава</a></li>
     			<li><a href="">Компания</a></li>
@@ -48,28 +50,28 @@
     <main>
     	
     	<h1>ТЕХНОМАРТ</h1>
-    	<div class="">
-    		<div class=""> 
+    	<div class="information">
+    		<div class="materials"> 
     			<h3>Материалы</h3>
     			<a href="#">на любой вкус</a>
     		</div>
-    		<div class="">
+    		<div class="tools">
     			<h3>Инструмент</h3>
     			<a href="#">НА ВСЕ СЛУЧАИ</a>
     		</div>
-    		<div class="">
+    		<div class="technics">
     			<h3>Техника</h3>
     			<a href="#">для стройки</a>
     		</div>
-    		<div class="">
+    		<div class="discounts">
     			<h3>Скидки 50%</h3>
     			<a href="#">На 350 ТОВАРОВ</a>
     		</div>
-    		<div class="">
+    		<div class="delivery">
     			<h3>Доставка</h3>
     			<a href="#">Бесплатно</a>
     		</div>
-    		<div class="">
+    		<div class="perforators">
     			<h3>Перфораторы</h3>
     			<p>Настоящие мужские игрушки</p>
     			<a href="#">ОТКРЫТЬ КАТАЛОГ</a>
@@ -77,10 +79,12 @@
     		</div>
     	</div>
 
-    <div class="">
+    <div class="popular-goods">
+    	<div class="block-product">
     	<h2>Популярные товары:</h2>
     	<a href="#">все поПулярные товары</a>
-    	<ul>
+    	</div>
+    	<ul class="products">
     		<li>
     			<p>Перфоратор BOSCH BFG 9000</p>
     			<p>32500 Р.</p>
@@ -107,12 +111,12 @@
     	</ul>
     </div>
 
-    <div class="">
-     <div class="">
+    <div class="popular-manufacturers">
+     <div class="block-manufacturers">
     	<h2>Популярные ПРОИзводители:</h2>
     	<a href="#">все производители</a>
      </div>	
-     <ul>
+     <ul class="manufacturers">
      	<li>
      	1<img src="" alt="">	
      	</li>
@@ -133,17 +137,17 @@
      	</li>
      </ul>
 
-     <section>
+     <section class="service-info">
      	<h2>Сервисы</h2>
      	<p>Хороший интернет-магазин отличается от плохого не только ценами!
 Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-		<ul>
+		<ul class="services">
 			<li>Доставка</li>
 			<li>Гарантия</li>
 			<li>Кредит</li>
 		</ul>
      </section>
-     <section>
+     <section class="delivery-info">
      	<h2>Доставка</h2>
      	<p>Мы с удовольствием доставим ваш товар прямо 
 к вашему подъезду совершенно бесплатно!
@@ -151,14 +155,14 @@
 поднимая его на ваш этаж!</p>
      </section>
 
-     <section>
+     <section class="texhno-company">
      	<h2>КОМПАНИЯ «Техномарт»</h2>
      	<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
      	<p>
 	Мы можем доставить ваш товар в самые отдаленные точки России!
 	Техномарт работает со многими транспортными компаниями:
 		</p>
-		<ul>
+		<ul class="transports">
 			<li>Деловые линии</li>
 			<li>Автотрейдинг</li>
 			<li>ЖелДорЭкспедиция</li>
@@ -166,7 +170,7 @@
 		<a href="#">Подробнее о компании</a>
  	 </section>
 
-	 <section>
+	 <section class="contacts">
 			<h2>КОНТАКТЫ</h2>
 			<p>Вы можете забрать товар сами, 
 				заехав в наш офис:
@@ -178,30 +182,34 @@
 	 </section>
     
     <footer>
-    	<div class="">
+    	<section class="footer-top">
     		<a href="">техномарт</a>
     		<p>
     			г. Санкт-Петербург, наб. Реки Карповки, 5 лит П 
     		</p>
     	<a href="tel:+78005558628" >+7 800 555-86-28</a>
-    	<ul>
+    	<ul class="nav-footer-top">
     		<li><a href="#">Компания</a></li>
     		<li><a href="#">Новости</a></li>
     		<li><a href="#">Каталог</a></li>
     		<li><a href="#">Доставка</a></li>
     		<li><a href="#">Контакты</a></li>
+		</ul>
+		<ul class="nav-footer-wrap">
     		<li><a href="#">Материалы</a></li>
     		<li><a href="#">Техника</a></li>
     		<li><a href="#">Инструмент</a></li>
     		<li><a href="#">Спецпредложения</a></li>
     	</ul>
-    </div>
+    </section>
 
-    <section class="">
+    <section>
+    <div >
     	<p>© 2010–2021 Компания «Техномарт» 
     	</p><br>
     	<p>Все права защищены</p>
-    </section>
+    </div>
+    <div >
      <ul>
       <li>
         <a href="#">Вконтакте</a>
@@ -213,6 +221,12 @@
         <a href="#">Инстаграм</a>
       </li>
     </ul>
+	</div>
+	<p>Обратная связь: </p><br>
+	<p>mail@htmlacademy.ru</p>
+	<p>Разработано — </p> <br>
+	<p>htmlacademy.ru</p>
+	</section>
     </footer>
 
     <section>
