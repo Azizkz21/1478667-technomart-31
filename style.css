@@ -1,0 +1,89 @@
+:root {
+  --basic-red: #EE3643;
+  --basic-dark-blue: #293449;
+  --basic-Special-ylellow: #FFBF47;
+  --basic-blue: #3BBCE3;
+  --basic-purple: #DC91D8;
+  --basic-light-gray: #F1F5F7;
+  --basic-slavish:#8ED78F;
+  --basic-dark-blue2:#32425C;
+  --basic-bodily:#F9F5F0;
+  --basic-white: #ffffff;
+  --basic-green:#63A63E;
+
+  --special: #663d15;
+}
+
+/* Global */
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum ", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  
+  text-transform: uppercase; 
+}
+
+a{
+	text-decoration:none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*  header navigation */
+header{
+	background: var(--basic-light-gray);
+	width: 1200px;
+	
+}
+
+.header__top{
+	width: 1200px;
+	background: var(--basic-dark-blue);
+	color:var(--basic-white);
+
+}
+
+.link-logo{
+	position:absolute;
+	left:240px;
+	top: 35px;
+	display: inline-block;
+	padding: 10px 20px;
+	width: 220px;
+	height: 37px;
+	font-size: 20px;
+	font-family: "PT Sans ", Arial, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color:var(--basic-white);
+	background:var(--basic-red); 
+}
+
+.items-purchase li:nth-child(3){
+	width: 150px;
+	height:42px;
+	padding: 10px 15px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height:24px;
+	background: var(--basic-green);
+
+}
+
+.items-purchase li:nth-child(3) a{
+	color:var(--basic-white);
+}
+
+.items-purchase{
+	list-style: none;
+}
+
+
+
