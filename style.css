@@ -12,6 +12,7 @@
   --basic-green:#63A63E;
   --basic-black:#000000;
   --basic-grey:#A9A9A9;
+  --basic-gold:#FFD180;
 
   --special: #663d15;
 }
@@ -285,6 +286,7 @@ section .list-manufacturers li{
 	background: var(--basic-light-gray);
 	width: 1200px;
 	height: 522px;
+	
 }
 
 .service .service-info h2{
@@ -297,4 +299,148 @@ section .list-manufacturers li{
 	font-family: "PT Sans", Arial , sans-serif;
 	font-weight: 400;
 	font-size: 10px
+}
+
+.service .list-services .link-delivery{
+	width: 90px;
+	height: 30px;
+	color: var(--basic-dark-blue);
+	background: var(--basic-white);
+}
+
+.service .list-services li{
+	width: 90px;
+	height: 30px;
+	color: var(--basic-white);
+	background: var(--basic-dark-blue);
+}
+
+.service .delivery-info h2{
+	color: var(--basic-dark-blue);
+}
+
+.service .delivery-info p{
+	color: var(--basic-black);
+	font-family: "PT Sans", Arial , sans-serif;
+	font-weight: 400;
+	font-size: 10px
+}
+
+/* main texhno-company*/
+
+.texhno-company h2{
+	color: var(--basic-black);
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.texhno-company p{
+	color: var(--basic-black);
+	font-weight: 400;
+	font-family: "PT Sans", Arial , sans-serif;
+}
+
+.texhno-company .list-transports li{
+	color: var(--basic-black);
+	font-weight: 400;
+}
+
+.texhno-company a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	background: var(--basic-red);
+	color: var(--basic-white);
+	font-weight: 400;
+	font-size: 8px;
+}
+
+.contacts h2{
+	color: var(--basic-black);
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.contacts p{
+	color: var(--basic-black);
+	font-weight: 400;
+	font-family: "PT Sans", Arial , sans-serif;
+}
+
+.contacts a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	background: var(--basic-red);
+	color: var(--basic-white);
+	font-weight: 400;
+	font-size: 8px;
+}
+
+/* footer*/
+
+footer .footer-top{
+	background: var(--basic-dark-blue);
+	width: 1200px;
+	height: 300px;
+
+}
+
+footer .footer-top .logo-footer{
+	position:absolute;
+	left:500px;
+	top: 5000px;
+	display: inline-block;
+	padding: 10px 20px;
+	width: 220px;
+	height: 37px;
+	font-size: 20px;
+	font-family: "PT Sans ", Arial, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color:var(--basic-white);
+	background:var(--basic-red); 
+	border-bottom: solid 5px rgb(158, 0, 3);
+
+}
+
+footer .footer-top span{
+	color: var(--basic-white);
+	font-weight: 400;
+}
+
+footer .footer-top a{
+	color: var(--basic-white);
+	font-weight: 400;
+}
+
+footer .footer-top .nav-footer-top li a{
+	color: var(--basic-white);
+	font-weight: 400;
+}
+
+footer .footer-top .nav-footer-wrap li a{
+	color: var(--basic-gold);
+	font-weight: 400;
+}
+
+footer .footer-wrap{
+	background: var(--basic-dark-blue2);
+	width: 1200px;
+	height: 300px;
+}
+
+footer .footer-wrap .footer-contacts a{
+	color: var(--basic-white);
+	font-weight: 400;
+}
+
+footer .footer-wrap .footer-copyright span{
+	color: var(--basic-white);
+	font-weight: 400;
+}
+
+footer .footer-wrap .footer-copyright a{
+	color: var(--basic-gold);
+	font-weight: 400;
 }
