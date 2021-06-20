@@ -17,8 +17,8 @@
     	ТЕХНОМАРТ
     	</a>
     	<div class="header__top">
-    		<form>
-    			<input type="search" name="search" id="search">
+    		<form class="search-product">
+    			<input type="search" name="search" id="search" placeholder="Поиск">
     			<img src="images/icons/icon-search.svg" width="15" height="15" alt="search">
     		</form>
     		<ul class="items-purchase">
@@ -27,23 +27,23 @@
     				<img src="images/icons/icon-bookmark.svg" widht="15" height="15" alt="bookmark">
     			</li>
     			<li>
-    			Корзина:
-    			<img src="images/icons/icon-cart.svg" width="15" height="15" alt="cart">
+    				Корзина:
+    				<img src="images/icons/icon-cart.svg" width="15" height="15" alt="cart">
     			</li>
     			<li><a href="">Оформить заказ:</a></li>
     		</ul>
     	</div>
 
-    	<div class="header__wrap">
+    	<div class="header-wrap">
     		<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-    		<div class="tel-nomber">
+    		<div class="tel-number">
     		 <a href="tel:+78005558628" class="link-phone">+7 800 555-86-28<img src="images/icons/icon-phone.svg" width="19" height="19" alt="phone"></a>
     		</div>
-    		<span>	г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</span>
+    		<span class="adress">	г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</span>
     		<a href="#" class="link-logout">Войти <img src="images/icons/icon-logout.svg" width="19" height="19"  alt="logout"></a>
     		<a href="#" class="link-register">Регистрация</a>
     	</div>
-    	<nav class="nav">
+    	<nav >
     		<ul class="nav-list">
     			<li><a href="#" class="nav-link">Глава</a></li>
     			<li><a href="#" class="nav-link">Компания</a></li>
@@ -93,33 +93,33 @@
     		</div>
     	</section>
 
-    <section class="popular-goods">
+    <section >
     		<div class="block-product">
     		 	<h2>Популярные товары:</h2>
     		 	<a href="#">все популярные товары</a>
     		</div>
     		<ul class="list-products">
     		 	<li>
-    				<span>Перфоратор BOSCHBFG 9000</span>
-    				<span>32500 Р.</span>
+    				<span class="popular-goods">Перфоратор BOSCHBFG 9000</span>
+    				<span class="prices">32500 Р.</span>
     				<a href="#">25500 Р.</a>
     				<img src="images/popultovar/s9000.png" width="184" height="164" alt="Перфоратор BOSCHBFG 9000">
     		 	</li>
     		 	<li>
-    		 		<span>Перфоратор BOSCHBFG 3000</span>
-    				<span>22500 Р.</span>
+    		 		<span class="popular-goods">Перфоратор BOSCHBFG 3000</span>
+    				<span class="prices">22500 Р.</span>
     				<a href="#">15500 Р.</a>
     				<img src="images/popultovar/s3000.png" width="127" height="112" alt="Перфоратор BOSCHBFG 3000">
     		 	</li>
     		 	<li>
-    				<span>Перфоратор BOSCHBFG 6000</span>
-    				<span>30500 Р.</span>
+    				<span class="popular-goods">Перфоратор BOSCHBFG 6000</span>
+    				<span class="prices">30500 Р.</span>
     				<a href="#">25500 Р.</a>
     				<img src="images/popultovar/s6000.png" width="144" height="128" alt="Перфоратор BOSCHBFG 6000">
     			</li>
     			<li>
-    				<span>Перфоратор BOSCHBFG 2000</span>
-    				<span>22500 Р.</span>
+    				<span class="popular-goods">Перфоратор BOSCHBFG 2000</span>
+    				<span class="prices">22500 Р.</span>
     				<a href="#">12500 Р.</a>
     				<img src="images/popultovar/s2000.png" width="127" height="112" alt="Перфоратор BOSCHBFG 2000">
     			</li>
@@ -158,24 +158,27 @@
      			</li>
      		</ul>
    	</section>
-    <section class="service-info">
-     		<h2>Сервисы</h2>
-     		<p>Хороший интернет-магазин отличается от плохого не только ценами!
-				Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-				<ul class="list-services">
-					<li>Доставка</li>
-					<li>Гарантия</li>
-					<li>Кредит</li>
-				</ul>
-    </section>
-    <section class="delivery-info">
-     		<h2>Доставка</h2>
-     		<p>Мы с удовольствием доставим ваш товар прямо 
-				к вашему подъезду совершенно бесплатно!
-				Ведь мы неплохо заработаем, 
-				поднимая его на ваш этаж!</p>
+
+   	<section class="service">
+    		<div class="service-info">
+     			<h2>Сервисы</h2>
+     			<p>Хороший интернет-магазин отличается от плохого не только ценами!
+					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+					<ul class="list-services">
+						<li class="link-delivery">Доставка</li>
+						<li>Гарантия</li>
+						<li>Кредит</li>
+					</ul>
+    		</div>
+    		<div class="delivery-info">
+     			<h2>Доставка</h2>
+     			<p>Мы с удовольствием доставим ваш товар прямо 
+					компаниями вашему подъезду совершенно бесплатно!
+					Ведь мы неплохо заработаем, 
+					поднимая его на ваш этаж!</p>
 				<img src="images/dostavka/dostavka.svg" width="468" height="261" alt="Доставка">
-    </section>
+    		</div>
+		</section>
 
     <section class="texhno-company">
      		<h2>КОМПАНИЯ «Техномарт»</h2>

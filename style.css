@@ -10,11 +10,14 @@
   --basic-bodily:#F9F5F0;
   --basic-white: #ffffff;
   --basic-green:#63A63E;
+  --basic-black:#000000;
+  --basic-grey:#A9A9A9;
 
   --special: #663d15;
 }
 
 /* Global */
+
 body {
   min-width: 960px;
   margin: 0;
@@ -36,10 +39,19 @@ img {
   height: auto;
 }
 
+li{
+	list-style: none;
+}
+
+h1{
+	display: none;
+}
+
 /*  header navigation */
 header{
 	background: var(--basic-light-gray);
 	width: 1200px;
+	height: 500px;
 	
 }
 
@@ -48,6 +60,41 @@ header{
 	background: var(--basic-dark-blue);
 	color:var(--basic-white);
 
+}
+
+#search{
+	background:var(--basic-dark-blue);
+	border: none;
+}
+
+.search-product input[type="search"]::-webkit-input-placeholder{
+	color: var(--basic-white);
+}
+
+.search-product img{
+	opacity: 0.5;
+}
+
+.search-product img:hover{
+	opacity: 1;	
+}
+
+.search:focus{
+	background: var(--basic-white);
+	color: var(--basic-red);	
+}
+
+.items-purchase li img{
+	opacity: 0.5;
+}
+
+.items-purchase li img:hover{
+	opacity: 1;
+}
+
+.items-purchase li:active{
+	opacity: 0.5;
+	background: #161D29;
 }
 
 .link-logo{
@@ -64,16 +111,21 @@ header{
 	text-align: center;
 	color:var(--basic-white);
 	background:var(--basic-red); 
+	border-bottom: solid 5px rgb(158, 0, 3);
+}
+
+.link-logo:active{
+	opacity: 0.5;
+
 }
 
 .items-purchase li:nth-child(3){
 	width: 150px;
 	height:42px;
-	padding: 10px 15px;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 400;
-	line-height:24px;
 	background: var(--basic-green);
+	text-align: center;
 
 }
 
@@ -81,9 +133,168 @@ header{
 	color:var(--basic-white);
 }
 
-.items-purchase{
-	list-style: none;
+.items-purchase li:nth-child(3) a:active{
+	opacity: 0.5;
+}
+
+.header-wrap p{
+	color: var(--basic-red);
+}
+
+.tel-number .link-phone{
+	width: 140px;
+	height: 50px;
+	border:solid 5px var(--basic-white);
+	display: inline-block;
+	color: var(--basic-red);
+	background: none;
+}
+
+.adress{
+	color: var(--basic-dark-blue);
+}
+
+.header-wrap a{
+	display: inline-block;
+	background: var(--basic-white);
+	width: 140px;
+	height: 50px;
+	color: var(--basic-black);
+}
+
+nav .nav-list{
+	background: var(--basic-dark-blue);
+}
+
+nav ul li{
+	display: inline;
+	 
+}
+
+nav ul li a{
+	color: var(--basic-white);
+	margin-right: 5px;
+}
+
+/* main content*/
+
+section .materials{
+	background: var(--basic-Special-ylellow);
+}
+
+section .tools{
+	background: var(--basic-blue);
+}
+
+section .technics{
+	background: var(--basic-purple);
+}
+
+section .discounts{
+	background: var(--basic-slavish);
+}
+
+section .delivery{
+	background: var(--basic-Special-ylellow);
+}
+
+section .perforators a{
+	width: 160px;
+	height: 40px;
+	display: inline-block;
+	background: var(--basic-red);
+	color: var(--basic-white);
+	font-weight: 400;
+	text-align:center;
+	vertical-align: middle;
+}
+
+/* main popular-goods*/
+
+section .block-product{
+	background: var(--basic-bodily);
+	width: 900px;
+	height: 120px;
+}
+
+section .block-product p{
+	color: var(--basic-black);
+}
+
+section .block-product a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	background: var(--basic-red);
+	color: var(--basic-white);
+	font-weight: 400;
+	font-size: 8px;
+}
+
+section .list-products li .popular-goods{
+	color: var(--basic-black);
+	font-size: 14px;
+}
+
+section .list-products li .prices{
+	color: var(--basic-grey);
+	font-size: 10px;
+	text-decoration: line-through;
+}
+
+section .list-products li a{
+	color: var(--basic-white);
+	display: inline-block;
+	background: var(--basic-red);
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* main popular-manufacturers*/
+
+section .block-manufacturers{
+	background: var(--basic-bodily);
+	width: 900px;
+	height: 120px;
+}
+
+section .block-manufacturers a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	background: var(--basic-red);
+	color: var(--basic-white);
+	font-weight: 400;
+	font-size: 8px;
+}
+
+section .list-manufacturers li{
+	padding: 15px;
+	width: 200px;
+	height: 200px;
+	align-items: center;
+	border:solid 2px var(--basic-light-gray);
 }
 
 
+/* main service-info*/
 
+.service{
+	background: var(--basic-light-gray);
+	width: 1200px;
+	height: 522px;
+}
+
+.service .service-info h2{
+	color: var(--basic-black);
+	font-weight: 600;
+}
+
+.service .service-info p{
+	color: var(--basic-black);
+	font-family: "PT Sans", Arial , sans-serif;
+	font-weight: 400;
+	font-size: 10px
+}
