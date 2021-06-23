@@ -32,12 +32,13 @@ body {
 }
 
 a{
-	text-decoration:none;
+  text-decoration:none;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
+  
 }
 
 li{
@@ -60,7 +61,6 @@ header{
 	width: 1200px;
 	background: var(--basic-dark-blue);
 	color:var(--basic-white);
-
 }
 
 #search{
@@ -127,7 +127,6 @@ header{
 	font-weight: 400;
 	background: var(--basic-green);
 	text-align: center;
-
 }
 
 .items-purchase li:nth-child(3) a{
@@ -168,8 +167,7 @@ nav .nav-list{
 }
 
 nav ul li{
-	display: inline;
-	 
+	display: inline;	 
 }
 
 nav ul li a{
@@ -272,10 +270,8 @@ section .block-manufacturers a{
 }
 
 section .list-manufacturers li{
-	padding: 15px;
-	width: 200px;
-	height: 200px;
-	align-items: center;
+	width: 220px;
+	height: 145px;
 	border:solid 2px var(--basic-light-gray);
 }
 
@@ -285,8 +281,7 @@ section .list-manufacturers li{
 .service{
 	background: var(--basic-light-gray);
 	width: 1200px;
-	height: 522px;
-	
+	height: 522px;	
 }
 
 .service .service-info h2{
@@ -383,7 +378,6 @@ footer .footer-top{
 	background: var(--basic-dark-blue);
 	width: 1200px;
 	height: 300px;
-
 }
 
 footer .footer-top .logo-footer{
@@ -401,7 +395,6 @@ footer .footer-top .logo-footer{
 	color:var(--basic-white);
 	background:var(--basic-red); 
 	border-bottom: solid 5px rgb(158, 0, 3);
-
 }
 
 footer .footer-top span{
@@ -443,4 +436,56 @@ footer .footer-wrap .footer-copyright span{
 footer .footer-wrap .footer-copyright a{
 	color: var(--basic-gold);
 	font-weight: 400;
+}
+
+/* login form */
+
+.modal-login{
+	background: var(--basic-white)
+	border-top:solid 15px var(--basic-red);
+	width: 600px;
+	height: 200px;
+}
+
+.login-form input{
+	border: solid 2px var(--basic-grey);
+}
+
+.login-form textarea{
+	border:solid 2px var(--basic-grey);
+}
+
+input[type="name", type="email", type="textarea"]::-webkit-input-placeholder{
+	color: var(--basic-grey);
+}
+
+.login-form label{
+	font-weight: 400;
+	color: var(--basic-black);
+}
+
+.login-form .button-form{
+	background: var(--basic-light-gray);
+	width: 600px;
+	height: 50px;
+}
+
+.login-form button{
+	width: 120px;
+	height: 30px;
+	background: var(--basic-red);
+	color: var(--basic-white);
+	font-weight: 400;
+	font-size: 8px;
+	border:none;
+}
+
+.modal-close{
+	width: 120px;
+	height: 30px;
+	background: var(--basic-red);
+	color: var(--basic-white);
+	font-weight: 400;
+	font-size: 8px;
+	border:none;
 }
