@@ -26,9 +26,7 @@ body {
   font-family: "Cuprum ", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 700;
-  
-  text-transform: uppercase; 
+  font-weight: 700; 
 }
 
 a{
@@ -406,7 +404,24 @@ footer .footer-top{
 footer .footer-top .logo-footer{
 	position:absolute;
 	left:500px;
-	top: 5000px;
+	top: 4000px;
+	display: inline-block;
+	padding: 10px 20px;
+	width: 220px;
+	height: 37px;
+	font-size: 20px;
+	font-family: "PT Sans ", Arial, sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color:var(--basic-white);
+	background:var(--basic-red); 
+	border-bottom: solid 5px rgb(158, 0, 3);
+}
+
+footer .footer-top .logo-footer2{
+	position:absolute;
+	left:500px;
+	top: 3500px;
 	display: inline-block;
 	padding: 10px 20px;
 	width: 220px;
@@ -586,6 +601,11 @@ input[type="name", type="email", type="textarea"]::-webkit-input-placeholder{
 }
 
 .pagination-item a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: solid 1px var(--basic-grey);
+  border-radius: 2px;
   color: var(--basic-black);
   background-color: var(--basic-white);
 }
@@ -598,4 +618,29 @@ input[type="name", type="email", type="textarea"]::-webkit-input-placeholder{
 .pagination-item-current a:active {
   color: var(--basic-white);
   background-color: var(--basic-red);
+}
+
+.pagination-item-next a{
+	width: 120px;
+}
+
+/* text*/
+
+.text {
+	background: var(--basic-light-gray);
+	width: 1200px;
+	height: 200px;
+}
+
+.text span{
+	color: var(--basic-black);
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.text p{
+	color: var(--basic-black);
+	font-weight: 400;
+	font-size: 10px;
+	font-family: "PT Sans ", Arial, sans-serif;;
 }
