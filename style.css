@@ -17,6 +17,12 @@
   --special: #663d15;
 }
 
+/*grid*/
+
+.page{
+	height: 100%;
+}
+
 /* Global */
 
 body {
@@ -27,6 +33,11 @@ body {
   font-size: 14px;
   line-height: 24px;
   font-weight: 700; 
+
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
 }
 
 a{
